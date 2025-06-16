@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Happy Paws Pet Store</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Chewy&display=swap"
+        as="style">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Chewy&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" aria-label="Happy Paws Home">
+                <img src="Images/LogoWithoutNameNew.png" alt="Happy Paws Logo" class="logo-img" loading="lazy">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-label="Toggle navigation">
+                <i class="fas fa-paw"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="products.html" >
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex align-items-center">
+                    <a href="products.html" class="btn btn-paws me-2">
+                        <i class="fas fa-bone me-1"></i> Shop Now
+                    </a>
+                    <a href="#" class="cart-icon" aria-label="Shopping Cart">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span class="cart-count">3</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Header -->
+    <section class="contact-header">
+        <div class="container">
+            <h1>We'd Love to Hear From You!</h1>
+            <p class="lead">Have questions about our products or services? Get in touch with our friendly team.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section mb-5">
+        <div class="container">
+            <div class="row g-4 mb-5">
+                <div class="col-md-4">
+                    <div class="contact-card text-center">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Visit Us</h3>
+                        <p>123 Pet Street<br>Petville, PV 12345</p>
+                        <a href="#location" class="btn btn-outline-paws" style="color: #ff7daa;">View on Map</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-card text-center">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Call Us</h3>
+                        <p>+1 (123) 456-7890<br>Mon-Fri: 9am-6pm</p>
+                        <a href="tel:+11234567890" class="btn btn-outline-paws" style="color: #ff7daa;">Call Now</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contact-card text-center">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Us</h3>
+                        <p>info@happypaws.com<br>support@happypaws.com</p>
+                        <a href="mailto:info@happypaws.com" class="btn btn-outline-paws" style="color: #ff7daa;">Email Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="contact-form">
+                        <h2 class="mb-4">Send Us a Message</h2>
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="First Name" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" placeholder="Last Name" required>
+                                </div>
+                            </div>
+                            <input type="email" class="form-control" placeholder="Email Address" required>
+                            <input type="tel" class="form-control" placeholder="Phone Number">
+                            <select class="form-select" required>
+                                <option value="" disabled selected>Select Department</option>
+                                <option>Customer Service</option>
+                                <option>Product Questions</option>
+                                <option>Order Support</option>
+                                <option>Pet Care Advice</option>
+                                <option>Other</option>
+                            </select>
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                            <button type="submit" class="btn btn-submit mt-3 text-light">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="row g-4 h-100">
+                        <div class="col-md-6">
+                            <div class="store-hours">
+                                <h3 class="mb-4 gradient-text-animated" >Store Hours</h3>
+                                <ul class="list-unstyled">
+                                    <li><strong>Monday:</strong> 9am - 6pm</li>
+                                    <li><strong>Tuesday:</strong> 9am - 6pm</li>
+                                    <li><strong>Wednesday:</strong> 9am - 6pm</li>
+                                    <li><strong>Thursday:</strong> 9am - 8pm</li>
+                                    <li><strong>Friday:</strong> 9am - 8pm</li>
+                                    <li><strong>Saturday:</strong> 10am - 5pm</li>
+                                    <li><strong>Sunday:</strong> 11am - 4pm</li>
+                                </ul>
+                                <div class="alert alert-info mt-4">
+                                    <i class="fas fa-paw me-2"></i> Closed on major holidays
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="map-container" id="location">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.2152596621366!2d-73.9878449242391!3d40.74844047138938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzU0LjQiTiA3M8KwNTknMDkuNyJX!5e0!3m2!1sen!2sus!4v1623256789012!5m2!1sen!2sus"
+                                    allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2>Frequently Asked Questions</h2>
+                <p class="lead">Quick answers to common questions</p>
+            </div>
+
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item mb-3 border-0 rounded-3 overflow-hidden">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What payment methods do you accept?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We accept all major credit cards (Visa, MasterCard, American Express, Discover), PayPal,
+                            Apple Pay, Google Pay, and in-store cash payments.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-3 border-0 rounded-3 overflow-hidden">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Do you offer pet grooming services?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes! We have a full-service grooming salon at our Petville location. Services include baths,
+                            haircuts, nail trimming, ear cleaning, and more. Appointments are recommended.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-3 border-0 rounded-3 overflow-hidden">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What is your return policy?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We offer a 30-day return policy for most items with receipt. Perishable items like food and
+                            treats must be unopened. For health and safety reasons, we cannot accept returns on certain
+                            items like pet medications or used grooming tools.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item mb-3 border-0 rounded-3 overflow-hidden">
+                    <h2 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Do you have veterinary services on site?
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            While we don't have a full veterinary clinic, we do partner with local vets who offer
+                            monthly wellness clinics at our store. We also have trained staff who can provide basic
+                            health advice and recommend when to see a vet.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <p>Don't see your question here? <a href="#contact-form" class="text-paws">Contact us directly</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white pt-5 pb-4" style="background-image: url('images/f-bg.jpg') !important ;background-repeat: no-repeat; background-size: cover; background-position: center center; background-blend-mode: soft-light;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-4">
+                    <img src="Images/footetImage.png" alt="Happy Paws Logo" width="100">
+                    <p class="mt-3">Making pets happy since 2010 with quality products and loving care.</p>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-white me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Quick Links</h5>
+                     <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white">Home</a></li>
+                        <li><a href="products.html" class="text-white">Products</a></li>
+                        <li><a href="contact.html" class="text-white">Contact</a></li>
+                        <li><a href="#" class="text-white">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Customer Service</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Shipping Policy</a></li>
+                        <li><a href="#" class="text-white">Returns & Refunds</a></li>
+                        <li><a href="#" class="text-white">Track Order</a></li>
+                        <li><a href="#" class="text-white">Size Guide</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <h5>Contact Us</h5>
+                    <address>
+                        <p><i class="fas fa-map-marker-alt me-2"></i> 123 Pet Street, Petville, PV 12345</p>
+                        <p><i class="fas fa-phone me-2"></i> (123) 456-7890</p>
+                        <p><i class="fas fa-envelope me-2"></i> info@happypaws.com</p>
+                    </address>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p>&copy; 2025 Happy Paws Pet Store. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <p>
+                        <a href="#" class="text-white me-3">Privacy Policy</a>
+                        <a href="#" class="text-white">Terms of Service</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Navbar scroll effect
+            const navbar = document.querySelector('.navbar');
+            const logoImg = document.querySelector('.logo-img');
+
+            function handleScroll() {
+                if (window.scrollY > 30) {
+                    navbar.classList.add('scrolled');
+                    logoImg.style.height = '40px';
+                } else {
+                    navbar.classList.remove('scrolled');
+                    logoImg.style.height = '48px';
+                }
+            }
+
+            window.addEventListener('scroll', handleScroll);
+            handleScroll(); 
+
+            // Add to cart animation
+            const addToCartButtons = document.querySelectorAll('.btn-add-to-cart');
+            addToCartButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    const cartCount = document.querySelector('.cart-count');
+                    let count = parseInt(cartCount.textContent);
+                    cartCount.textContent = count + 1;
+
+                    // Add animation
+                    cartCount.style.transform = 'scale(1.5)';
+                    setTimeout(() => {
+                        cartCount.style.transform = 'scale(1)';
+                    }, 300);
+                });
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Navbar scroll effect
+            const navbar = document.querySelector('.navbar');
+            const logoImg = document.querySelector('.logo-img');
+
+            function handleScroll() {
+                if (window.scrollY > 30) {
+                    navbar.classList.add('scrolled');
+                    logoImg.style.height = '40px';
+                } else {
+                    navbar.classList.remove('scrolled');
+                    logoImg.style.height = '48px';
+                }
+            }
+
+            window.addEventListener('scroll', handleScroll);
+            handleScroll(); 
+
+            // Animate elements on load
+            const animateElements = (elements, delay) => {
+                elements.forEach((el, i) => {
+                    el.style.opacity = '0';
+                    el.style.transform = 'translateY(-10px)';
+                    el.style.animation = `fadeIn 0.4s ease forwards ${i * 0.1 + delay}s`;
+                });
+            };
+
+            animateElements(document.querySelectorAll('.nav-item'), 0.3);
+            animateElements(document.querySelectorAll('.btn-paws, .cart-icon'), 0.8);
+        });
+    </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Mobile filter functionality
+            const mobileFilterBtn = document.getElementById('mobileFilterBtn');
+            const mobileFilterContainer = document.getElementById('mobileFilterContainer');
+            const closeFilter = document.getElementById('closeFilter');
+            const applyMobileFilters = document.getElementById('applyMobileFilters');
+
+            mobileFilterBtn.addEventListener('click', function () {
+                mobileFilterContainer.style.display = 'block';
+                document.body.style.overflow = 'hidden';
+            });
+
+            closeFilter.addEventListener('click', function () {
+                mobileFilterContainer.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            });
+
+            applyMobileFilters.addEventListener('click', function () {
+                mobileFilterContainer.style.display = 'none';
+                document.body.style.overflow = 'auto';
+                // Here you would add your filter logic
+                alert('Filters applied! (This would filter products in a real implementation)');
+            });
+
+            // Close when clicking outside the filter content
+            mobileFilterContainer.addEventListener('click', function (e) {
+                if (e.target === mobileFilterContainer) {
+                    mobileFilterContainer.style.display = 'none';
+                    document.body.style.overflow = 'auto';
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
